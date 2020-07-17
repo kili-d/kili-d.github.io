@@ -1,0 +1,67 @@
+body {
+   font-family: 'Inconsolata', monospace;
+   background-color: whitesmoke;
+}
+
+.container {
+   margin: 0 auto;
+   margin-top: 50px;
+   width: 50%;
+
+}
+.nav
+{
+   text-align: end;
+}
+
+.nav ul {
+   list-style-type: none;
+}
+
+p {
+   font-size: 18px;
+   line-height: 1.2em;
+   color: slategray;
+}
+
+h1 {
+   color: darkslategray;
+}
+
+h2 {
+   color: darkslategray;
+   margin-top: 50px;
+
+}
+
+li {
+   font-size: 18px;
+   line-height: 1.2em;
+}
+
+a{ 
+   color: dodgerblue;
+}
+a:hover {
+  color: orangered;
+}
+
+hr {
+   margin-top: 50px;
+   border: 0.5px solid darkslategray;
+}
+
+/* Media queries */ 
+
+@media screen and (max-width: 750px) {
+
+
+.container 
+{
+   margin: 0 auto;
+   margin-top: 50px;
+   width: 75%;
+
+}
+
+}
